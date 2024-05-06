@@ -19,3 +19,15 @@
 - /find_transaction - найти транзакцию
 - /exit - выйти из приложения
 
+```
+git clone https://github.com/xaslx/Wallet.git
+
+pip install -r req.txt
+
+python main.py
+```
+
+При запуске будут тестовые данные и баланс(13700.0), можно изменить в модуле functions.py,
+где создается экземпляр класса Wallet, только если удалить balance.txt из папки files,
+иначе баланс будет браться из файла.
+
