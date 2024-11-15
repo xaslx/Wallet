@@ -12,7 +12,10 @@
 - Миграции: Alembic
 - Аутентификация: JWT
 
-## Установка
+## Установка и Настройка
+
+   Создать файл .env-non-dev и заполнить своими данными
+   
    ```bash
    git clone https://github.com/xaslx/Wallet.git
    cd Wallet
